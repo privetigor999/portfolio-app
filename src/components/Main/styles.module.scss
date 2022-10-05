@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  .headerBlock {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    .leftBlock {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 100px;
+      .name {
+        font-size: 30px;
+        color: rgb(55, 131, 131);
+      }
+    }
+
+    .aboutPhoto {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+    }
+  }
+
+  .aboutInfo {
+    width: 560px;
+    text-align: center;
+  }
+  .logosList {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    .logoItem {
+      fill: rgb(116, 112, 107);
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out;
+      padding-left: 20px;
+    }
+    .logoItem:hover {
+      fill: black;
+      transform: scale(120%);
+    }
+  }
+}
