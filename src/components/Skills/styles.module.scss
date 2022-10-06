@@ -27,7 +27,6 @@
         width: 60px;
       }
       h3 {
-        margin: 10px 0;
         color: var(--title-color);
         font-size: 24px;
       }
@@ -42,6 +41,48 @@
           font-size: 14px;
           color: var(--text-color);
           transition: color 400ms linear;
+        }
+      }
+    }
+    .itemSkills:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 991px) {
+  .wrapper {
+    .listSkills {
+      .itemSkills {
+        width: 230px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    .listSkills {
+      .itemSkills {
+        width: 170px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .wrapper {
+    .listSkills {
+      .itemSkills {
+        margin-right: 10px;
+        width: 130px;
+        .picturePng {
+          width: 40px;
+        }
+        h3 {
+          font-size: 20px;
         }
       }
     }

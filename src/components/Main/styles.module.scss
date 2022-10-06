@@ -54,3 +54,45 @@
     }
   }
 }
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    margin-top: 20px;
+    .headerBlock {
+      .aboutPhoto {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .aboutInfo {
+      padding: 0 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .wrapper {
+    margin-top: 10px;
+    .headerBlock {
+      margin-bottom: 10px;
+      .leftBlock {
+        margin-right: 40px;
+        .name {
+          font-size: 20px;
+        }
+        .employee {
+          font-size: 15px;
+        }
+      }
+      .aboutPhoto {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    .aboutInfo {
+      width: 400px;
+    }
+  }
+}
