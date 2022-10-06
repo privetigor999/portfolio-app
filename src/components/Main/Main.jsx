@@ -18,7 +18,7 @@ const Main = () => {
       <p className={styles.aboutInfo}>
         I am 29 years old. I usually live in Moscow, but it also happens in
         other cities. Every day I study something new for myself in the field of
-        development. I am currently practicing RTK and TypeScript. I will be
+        development. I am currently practicing RTK and TypeScript. I would be
         glad to work with you and benefit your team!
       </p>
       <div className={styles.logosList}>
