@@ -10,7 +10,7 @@ const Main = () => {
       <div className={styles.headerBlock}>
         <div className={styles.leftBlock}>
           <b className={styles.name}>Igor Ershov</b>
-          <b>Junior Frontend Developer</b>
+          <b className={styles.employee}>Junior Frontend Developer</b>
         </div>
         <img src={aboutPhotoPng} alt="about" className={styles.aboutPhoto} />
       </div>

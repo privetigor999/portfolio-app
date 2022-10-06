@@ -6,7 +6,9 @@
   width: 960px;
   margin-top: 20px;
   .paragraph {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    transition: color 400ms linear;
   }
 }
 a.link {
@@ -28,7 +30,7 @@ a.link {
     margin-right: 30px;
     margin-bottom: 50px;
     h3 {
-      color: rgb(55, 131, 131);
+      color: var(--title-color);
       text-align: center;
     }
     .imageProject {
@@ -40,11 +42,13 @@ a.link {
       flex-direction: row;
       justify-content: center;
       .tools {
-        border: 1px solid rgb(55, 131, 131);
+        border: 1px solid var(--title-color);
         padding: 0 5px;
         border-radius: 4px;
         margin: 4px;
         font-family: "M PLUS Code Latin", sans-serif;
+        color: var(--text-color);
+        transition: color 400ms linear;
       }
     }
   }

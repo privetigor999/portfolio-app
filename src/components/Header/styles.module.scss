@@ -8,6 +8,8 @@
   h5 {
     font-family: "Source Serif Pro", serif;
     font-size: 30px;
+    color: var(--text-color);
+    transition: color 500ms linear;
   }
   .modePng {
     width: 40px;

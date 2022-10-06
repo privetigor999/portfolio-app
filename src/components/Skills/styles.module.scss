@@ -3,6 +3,8 @@
   p {
     text-align: center;
     margin-bottom: 10px;
+    color: var(--text-color);
+    transition: color 400ms linear;
   }
   .listSkills {
     display: flex;
@@ -15,17 +17,18 @@
       justify-content: center;
       width: 300px;
       height: 300px;
-      border: 1px solid #000000;
+      border: var(--border-item);
       border-radius: 20px;
       margin-right: 20px;
       margin-bottom: 20px;
+      background-color: var(--background-skills-color);
       .picturePng {
         margin-top: 10px;
         width: 60px;
       }
       h3 {
         margin: 10px 0;
-        color: rgb(55, 131, 131);
+        color: var(--title-color);
         font-size: 24px;
       }
       ul {
@@ -37,6 +40,8 @@
         li {
           margin-bottom: 5px;
           font-size: 14px;
+          color: var(--text-color);
+          transition: color 400ms linear;
         }
       }
     }

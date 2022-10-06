@@ -15,7 +15,12 @@
       margin-right: 100px;
       .name {
         font-size: 30px;
-        color: rgb(55, 131, 131);
+        color: var(--title-color);
+        transition: color 400ms linear;
+      }
+      .employee {
+        color: var(--text-color);
+        transition: color 400ms linear;
       }
     }
 
@@ -29,6 +34,8 @@
   .aboutInfo {
     width: 560px;
     text-align: center;
+    color: var(--text-color);
+    transition: color 400ms linear;
   }
   .logosList {
     display: flex;
@@ -36,13 +43,13 @@
     flex-direction: row;
     margin-top: 30px;
     .logoItem {
-      fill: rgb(116, 112, 107);
+      fill: var(--logos-color);
       cursor: pointer;
       transition: transform 0.2s ease-in-out;
       padding-left: 20px;
     }
     .logoItem:hover {
-      fill: black;
+      fill: var(--logos-color-hover);
       transform: scale(120%);
     }
   }
