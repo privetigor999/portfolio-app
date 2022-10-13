@@ -5,6 +5,7 @@ import styles from "./styles.module.scss";
 import weatherImg from "./../../images/weather-app.png";
 import citiesImg from "./../../images/cities-app.png";
 import todoImg from "./../../images/todo-app.png";
+import countryImg from "./../../images/country.png";
 
 const Projects = () => {
   const dispatch = useDispatch();
@@ -23,13 +24,20 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "Get-Country-Info",
+      url: countryImg,
+      link: "https://privetigor999.github.io/get-country-info/",
+      tools: ["React", "REST Countries Api", "Material UI"],
+    },
+    {
+      id: 3,
       title: "Cities-Game",
       url: citiesImg,
       link: "https://privetigor999.github.io/city-redux/",
       tools: ["JavaScript", "React", "Redux ToolKit"],
     },
     {
-      id: 3,
+      id: 4,
       title: "Classic-Todo-App",
       url: todoImg,
       link: "https://privetigor999.github.io/mindbox-todo-app/",
