@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.84d63341.css",
-    "main.js": "/portfolio-app/static/js/main.3183fda4.js",
+    "main.js": "/portfolio-app/static/js/main.e1055475.js",
     "static/media/weather-app.png": "/portfolio-app/static/media/weather-app.efb8534f9a9c0b9b26ce.png",
     "static/media/cities-app.png": "/portfolio-app/static/media/cities-app.cbedf2d00da1bd68bbe3.png",
     "static/media/aboutPhoto.png": "/portfolio-app/static/media/aboutPhoto.57156c767dae53d06792.png",
     "static/media/todo-app.png": "/portfolio-app/static/media/todo-app.ea5a8b14506dfbfe6f05.png",
+    "static/media/country.png": "/portfolio-app/static/media/country.46f287da6d4285899267.png",
     "static/media/code.png": "/portfolio-app/static/media/code.f10cb6b7f0159a21b10a.png",
     "static/media/bag.png": "/portfolio-app/static/media/bag.c9b713d5ada668e6a0dd.png",
     "static/media/images.png": "/portfolio-app/static/media/images.e8ef0b6e4dd73bce54a5.png",
@@ -16,10 +17,10 @@
     "index.html": "/portfolio-app/index.html",
     "static/media/telegram.svg": "/portfolio-app/static/media/telegram.ee700d968e0a14134568f35fe5a6fa1d.svg",
     "main.84d63341.css.map": "/portfolio-app/static/css/main.84d63341.css.map",
-    "main.3183fda4.js.map": "/portfolio-app/static/js/main.3183fda4.js.map"
+    "main.e1055475.js.map": "/portfolio-app/static/js/main.e1055475.js.map"
   },
   "entrypoints": [
     "static/css/main.84d63341.css",
-    "static/js/main.3183fda4.js"
+    "static/js/main.e1055475.js"
   ]
 }
