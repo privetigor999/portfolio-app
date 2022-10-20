@@ -7,6 +7,7 @@ import citiesImg from "./../../images/cities-app.png";
 import todoImg from "./../../images/todo-app.png";
 import countryImg from "./../../images/country.png";
 import rickMortyImg from "./../../images/rick-and-morty.png";
+import getDogImg from "./../../images/get-dog.png";
 
 const Projects = () => {
   const dispatch = useDispatch();
@@ -32,20 +33,27 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "Get Random Dog Picture",
+      url: getDogImg,
+      link: "https://privetigor999.github.io/get-random-dog-picture/",
+      tools: ["React", "Redux ToolKit", "Dog Api"],
+    },
+    {
+      id: 4,
       title: "Get-Country-Info",
       url: countryImg,
       link: "https://privetigor999.github.io/get-country-info/",
       tools: ["React", "REST Countries Api", "Material UI"],
     },
     {
-      id: 4,
+      id: 5,
       title: "Cities-Game",
       url: citiesImg,
       link: "https://privetigor999.github.io/city-redux/",
       tools: ["JavaScript", "React", "Redux ToolKit"],
     },
     {
-      id: 5,
+      id: 6,
       title: "Classic-Todo-App",
       url: todoImg,
       link: "https://privetigor999.github.io/mindbox-todo-app/",
