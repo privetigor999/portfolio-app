@@ -22,7 +22,8 @@
       flex-direction: column;
       align-items: center;
       transition: transform 0.2s ease-in-out;
-      margin-right: 30px;
+      margin-left: 15px;
+      margin-right: 15px;
       margin-bottom: 50px;
       h3 {
         color: var(--title-color);
@@ -86,6 +87,64 @@ a.link {
         .toolsList {
           .tools {
             font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .wrapper {
+    font-size: 14px;
+    margin-top: 10px;
+    .listProjects {
+      .itemProject {
+        width: 300px;
+        height: 260px;
+        margin-bottom: 0px;
+        margin-right: 0;
+        h3 {
+          font-size: 14px;
+        }
+        .imageProject {
+          width: 300px;
+        }
+        .toolsList {
+          .tools {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .wrapper {
+    font-size: 12px;
+    margin-top: 6px;
+    .paragraph {
+      margin-bottom: 0;
+    }
+    .listProjects {
+      justify-content: center;
+      .itemProject {
+        width: 240px;
+        height: 220px;
+        margin-bottom: 0px;
+        margin-right: 0;
+        margin-left: 0;
+        justify-content: center;
+        h3 {
+          font-size: 14px;
+        }
+        .imageProject {
+          width: 240px;
+        }
+        .toolsList {
+          .tools {
+            font-size: 10px;
           }
         }
       }

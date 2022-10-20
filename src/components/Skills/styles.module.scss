@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     .itemSkills {
       display: flex;
       flex-direction: column;
@@ -19,7 +20,7 @@
       height: 300px;
       border: var(--border-item);
       border-radius: 20px;
-      margin-right: 20px;
+      margin-right: 10px;
       margin-bottom: 20px;
       background-color: var(--background-skills-color);
       .picturePng {
@@ -78,11 +79,72 @@
       .itemSkills {
         margin-right: 10px;
         width: 130px;
+        height: 240px;
         .picturePng {
           width: 40px;
+          margin-top: 6px;
         }
         h3 {
-          font-size: 20px;
+          font-size: 18px;
+        }
+        ul {
+          li {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .wrapper {
+    margin-top: 10px;
+    p {
+      font-size: 12px;
+    }
+    .listSkills {
+      .itemSkills {
+        margin-right: 10px;
+        width: 90px;
+        height: 200px;
+        .picturePng {
+          width: 20px;
+        }
+        h3 {
+          font-size: 12px;
+        }
+        ul {
+          li {
+            margin-bottom: 2px;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 340px) {
+  .wrapper {
+    margin-top: 6px;
+    p {
+      font-size: 12px;
+    }
+    .listSkills {
+      .itemSkills {
+        margin-right: 6px;
+        width: 70px;
+        height: 150px;
+        .picturePng {
+          width: 20px;
+        }
+        h3 {
+          font-size: 10px;
+        }
+        ul {
+          li {
+            margin-bottom: 2px;
+            font-size: 8px;
+          }
         }
       }
     }

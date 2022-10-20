@@ -96,3 +96,67 @@
     }
   }
 }
+
+@media screen and (max-width: 420px) {
+  .wrapper {
+    margin-top: 10px;
+    .headerBlock {
+      margin-bottom: 10px;
+      .leftBlock {
+        margin-right: 10px;
+        .name {
+          font-size: 16px;
+        }
+        .employee {
+          font-size: 12px;
+        }
+      }
+      .aboutPhoto {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .aboutInfo {
+      width: 320px;
+      font-size: 12px;
+    }
+    .logosList {
+      margin-top: 10px;
+      .logoItem {
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .wrapper {
+    margin-top: 8px;
+    .headerBlock {
+      margin-bottom: 10px;
+      .leftBlock {
+        margin-right: 10px;
+        .name {
+          font-size: 16px;
+        }
+        .employee {
+          font-size: 12px;
+        }
+      }
+      .aboutPhoto {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .aboutInfo {
+      width: 260px;
+      font-size: 10px;
+    }
+    .logosList {
+      margin-top: 6px;
+      .logoItem {
+        width: 50px;
+      }
+    }
+  }
+}

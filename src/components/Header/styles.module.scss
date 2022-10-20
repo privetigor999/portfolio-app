@@ -42,3 +42,22 @@
     }
   }
 }
+@media screen and (max-width: 420px) {
+  // from 340
+  .wrapper {
+    height: 40px;
+    .modePng {
+      width: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 340px) {
+  // from 340
+  .wrapper {
+    height: 40px;
+    .modePng {
+      width: 16px;
+    }
+  }
+}
