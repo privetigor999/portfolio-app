@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.84d63341.css",
+    "main.css": "/portfolio-app/static/css/main.4a47c681.css",
     "main.js": "/portfolio-app/static/js/main.96dfd48b.js",
     "static/media/weather-app.png": "/portfolio-app/static/media/weather-app.efb8534f9a9c0b9b26ce.png",
     "static/media/cities-app.png": "/portfolio-app/static/media/cities-app.cbedf2d00da1bd68bbe3.png",
@@ -17,11 +17,11 @@
     "static/media/github.svg": "/portfolio-app/static/media/github.c3e8ab2fd8d231cb5f634939ce17618f.svg",
     "index.html": "/portfolio-app/index.html",
     "static/media/telegram.svg": "/portfolio-app/static/media/telegram.ee700d968e0a14134568f35fe5a6fa1d.svg",
-    "main.84d63341.css.map": "/portfolio-app/static/css/main.84d63341.css.map",
+    "main.4a47c681.css.map": "/portfolio-app/static/css/main.4a47c681.css.map",
     "main.96dfd48b.js.map": "/portfolio-app/static/js/main.96dfd48b.js.map"
   },
   "entrypoints": [
-    "static/css/main.84d63341.css",
+    "static/css/main.4a47c681.css",
     "static/js/main.96dfd48b.js"
   ]
 }
