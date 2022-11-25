@@ -9,4 +9,3 @@ https://privetigor999.github.io/portfolio-app/
 - Hooks + custom Hook
 - SASS
 - localStorage
-- ReduxToolKit
