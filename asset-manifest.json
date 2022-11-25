@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.4a47c681.css",
-    "main.js": "/portfolio-app/static/js/main.eecda0ed.js",
-    "static/media/weather-app.png": "/portfolio-app/static/media/weather-app.efb8534f9a9c0b9b26ce.png",
-    "static/media/cities-app.png": "/portfolio-app/static/media/cities-app.cbedf2d00da1bd68bbe3.png",
-    "static/media/rick-and-morty.png": "/portfolio-app/static/media/rick-and-morty.77bfce6420c5189cad1b.png",
-    "static/media/get-dog.png": "/portfolio-app/static/media/get-dog.91d59fe7d7d20dfa6186.png",
+    "main.js": "/portfolio-app/static/js/main.db2c2cb8.js",
+    "static/media/rick-and-morty.gif": "/portfolio-app/static/media/rick-and-morty.9af55ce396f32ad6b5fa.gif",
+    "static/media/countries.gif": "/portfolio-app/static/media/countries.b092b9c03c8887c1529f.gif",
+    "static/media/get-dog.gif": "/portfolio-app/static/media/get-dog.98d508f9b3af20545dad.gif",
+    "static/media/cities.gif": "/portfolio-app/static/media/cities.0254ff382be049b9dd59.gif",
+    "static/media/weather-app.gif": "/portfolio-app/static/media/weather-app.a81a5f0170d74cd7bcfe.gif",
+    "static/media/dualingo.gif": "/portfolio-app/static/media/dualingo.5006656c862298134d64.gif",
+    "static/media/todo.gif": "/portfolio-app/static/media/todo.73088eabf69afd8c6b50.gif",
     "static/media/aboutPhoto.png": "/portfolio-app/static/media/aboutPhoto.57156c767dae53d06792.png",
-    "static/media/country.png": "/portfolio-app/static/media/country.46f287da6d4285899267.png",
-    "static/media/todo-app.png": "/portfolio-app/static/media/todo-app.6b630da7641105f51051.png",
     "static/media/code.png": "/portfolio-app/static/media/code.f10cb6b7f0159a21b10a.png",
     "static/media/bag.png": "/portfolio-app/static/media/bag.c9b713d5ada668e6a0dd.png",
     "static/media/images.png": "/portfolio-app/static/media/images.e8ef0b6e4dd73bce54a5.png",
@@ -19,10 +20,10 @@
     "index.html": "/portfolio-app/index.html",
     "static/media/telegram.svg": "/portfolio-app/static/media/telegram.ee700d968e0a14134568f35fe5a6fa1d.svg",
     "main.4a47c681.css.map": "/portfolio-app/static/css/main.4a47c681.css.map",
-    "main.eecda0ed.js.map": "/portfolio-app/static/js/main.eecda0ed.js.map"
+    "main.db2c2cb8.js.map": "/portfolio-app/static/js/main.db2c2cb8.js.map"
   },
   "entrypoints": [
     "static/css/main.4a47c681.css",
-    "static/js/main.eecda0ed.js"
+    "static/js/main.db2c2cb8.js"
   ]
 }
