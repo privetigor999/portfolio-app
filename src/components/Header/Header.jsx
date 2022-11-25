@@ -1,8 +1,10 @@
 import React from "react";
+
 import styles from "./styles.module.scss";
-import nightPng from "./../../images/night.png";
-import dayPng from "./../../images/day.png";
+import nightPng from "./../../images/icons/night.png";
+import dayPng from "./../../images/icons/day.png";
 import { useTheme } from "../../hooks/useTheme";
+
 const Header = () => {
   const { theme, setTheme } = useTheme();
 

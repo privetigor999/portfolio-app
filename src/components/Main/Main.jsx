@@ -1,9 +1,11 @@
 import React from "react";
-import { ReactComponent as GitHubLogo } from "./../../images/github.svg";
-import { ReactComponent as TelegramLogo } from "./../../images/telegram.svg";
-import { ReactComponent as HeadHunterLogo } from "./../../images/headhunter.svg";
+
+import { ReactComponent as GitHubLogo } from "./../../images/svg/github.svg";
+import { ReactComponent as TelegramLogo } from "./../../images/svg/telegram.svg";
+import { ReactComponent as HeadHunterLogo } from "./../../images/svg/headhunter.svg";
 import aboutPhotoPng from "./../../images/aboutPhoto.png";
 import styles from "./styles.module.scss";
+
 const Main = () => {
   return (
     <div className={styles.wrapper}>
@@ -23,18 +25,15 @@ const Main = () => {
       </p>
       <div className={styles.logosList}>
         <a href="https://github.com/privetigor999" target="_blank">
-          {" "}
           <GitHubLogo className={styles.logoItem} width="60" height="60" />
         </a>
         <a
           href="https://hh.ru/resume/33c10ef2ff0b147d7f0039ed1f716a30473472"
           target="_blank"
         >
-          {" "}
           <HeadHunterLogo className={styles.logoItem} width="60" height="60" />
         </a>
         <a href="https://t.me/dontrememberme" target="_blank">
-          {" "}
           <TelegramLogo className={styles.logoItem} width="60" height="60" />
         </a>
       </div>
