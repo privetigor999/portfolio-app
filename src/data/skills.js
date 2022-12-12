@@ -7,15 +7,7 @@ export const mySkills = [
     id: 1,
     img: imagesPng,
     title: "Styles",
-    skills: [
-      "CSS",
-      "Flexbox",
-      "SASS",
-      "Figma",
-      "Adaptability",
-      "Base BEM",
-      "Base grid",
-    ],
+    skills: ["CSS", "Flexbox", "SASS", "Figma", "Adaptability", "Base grid"],
   },
   {
     id: 2,

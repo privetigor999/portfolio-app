@@ -1,5 +1,6 @@
 import React from "react";
 import { myProjects } from "../../data/myProjects";
+import Project from "./Project/Project";
 
 import styles from "./styles.module.scss";
 
@@ -11,19 +12,7 @@ const Projects = () => {
       </p>
       <div className={styles.listProjects}>
         {myProjects.map((item) => (
-          <div className={styles.itemProject} key={item.id}>
-            <a href={item.link} target="_blank" className={styles.link}>
-              <h3 className={styles.nameProject}>{item.title}</h3>
-              <img src={item.url} className={styles.imageProject} alt="img" />
-              <div className={styles.toolsList}>
-                {item.tools.map((tool) => (
-                  <div className={styles.tools} key={Math.random()}>
-                    {tool}
-                  </div>
-                ))}
-              </div>
-            </a>
-          </div>
+          <Project item={item} key={item.id} />
         ))}
       </div>
     </div>

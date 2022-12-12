@@ -14,43 +14,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    .itemProject {
-      width: 450px;
-      height: 300px;
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      transition: transform 0.2s ease-in-out;
-      margin-left: 15px;
-      margin-right: 15px;
-      margin-bottom: 50px;
-      h3 {
-        color: var(--title-color);
-        text-align: center;
-      }
-      .imageProject {
-        width: 450px;
-        border-radius: 10px;
-      }
-      .toolsList {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        .tools {
-          border: 1px solid var(--title-color);
-          padding: 0 5px;
-          border-radius: 4px;
-          margin: 4px;
-          font-family: "M PLUS Code Latin", sans-serif;
-          color: var(--text-color);
-          transition: color 400ms linear;
-        }
-      }
-    }
-    .itemProject:hover {
-      transform: translateY(-10px);
-    }
   }
 }
 a.link {

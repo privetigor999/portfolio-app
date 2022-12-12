@@ -37,7 +37,7 @@ code {
 html[data-theme="dark"] {
   --text-color: #ffffff;
   --title-color: rgb(128, 188, 188);
-  --background-color: rgb(25, 38, 38);
+  --background-color: #192626;
   --border-item: 1px solid #ffffff;
   --background-skills-color: rgb(78, 106, 106);
   --logos-color: rgb(178, 174, 170);
